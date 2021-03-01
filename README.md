@@ -1,1 +1,1 @@
-https://polina-svg.github.io/rsschool-cv/cv
+https://polina-svg.github.io/rsschool-cv
