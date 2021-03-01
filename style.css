@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", Verdana, sans-serif;
+  display: flex;
+}
+.wrapper {
+  width:900px;
+  margin: 0 auto;
+  
+}
+.about{
+  display: flex;
+  position: relative;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color:red;
+}
+.about__image{
+  position: absolute;
+  right: 50px;
+  bottom: 15px; 
+  box-shadow: 5px 2px 10px black;
+}
+.about__list{
+  display: flex;
+  margin: 20px 0;
+  width: 60%;
+  justify-content: space-between;
+
+
+}
+  
+.about__list ul{
+  list-style: none;
+}
+
+.information{
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color:red;
+}
+
+.skills--languages{
+  display: flex;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color:red;
+}
+.skills__list{
+  display: flex;
+}
+.skills__list ul{
+  list-style-type: none; 
+  
+}
+.skills__list ul li:before {
+  content: '☑ ';
+  color: red;
+  font-size: 24px;
+}
+.perosnality__title{
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+.personality__list{
+  display: flex; 
+  font-size: 20px;
+  justify-content: space-evenly;
+  padding: 0 0 20px 0
+}
+.personality__list ul{
+  list-style-type: none; 
+  
+}
+.personality__list ul li:before {
+  content: '☑ ';
+  color: red;
+  font-size: 24px;
+}
+.information{
+  padding: 0 20px;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color:red;
+}
+.information__content{
+  text-align: justify;
+  padding: 15px 0;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(187, 20, 20);
+  align-items: center;
+  border-top: 10px solid rgba(235, 72, 72, 0.2);
+}
+.footer a{
+  color: black;
+}
+.footer i{
+  font-size: 28px;
+  padding: 20px 0;
+}
+.footer__image{
+  width: 70px;
+  padding: 20px 0
+}
+.footer p{
+  padding: 20px 0;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+  font-weight: 700;
+  width: 0;
+  
+}
+.header__title{
+  padding: 45px 0;
+}
