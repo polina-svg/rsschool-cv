@@ -23,6 +23,7 @@ body {
   border-bottom-width: 10px;
   border-bottom-style: solid;
   border-bottom-color:red;
+  align-items: center;
 }
 .about__image{
   position: absolute;
